@@ -1,0 +1,23 @@
+name: Mikaminei
+version: '${project.version}'
+main: de.mikaminei.mikaminei.Mikaminei
+api-version: '1.20'
+author: Mikaminei
+description: Mikaminei Server Plugin
+website: https://mikaminei.de
+commands:
+  heal:
+    description: Heals player to max health.
+    usage: /<command>
+  feed:
+    description: Feeds player to max saturation.
+    usage: /<command>
+  mobparty:
+    description: Spawns a mob 1-limit of an Integer time(s).
+    usage: /<command> <mob> <amount>
+  wandoftruth:
+    description: Gives the player a wand of truth.
+    usage: /<command>
+  explosivewand:
+    description: Gives the player an explosive wand.
+    usage: /<command>
